@@ -1,0 +1,979 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 11:40:41 +0300
+
+ActionController::RoutingError (uninitialized constant SessionsController):
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.12.2) lib/puma/server.rb:539:in `handle_request'
+  puma (2.12.2) lib/puma/server.rb:386:in `process_client'
+  puma (2.12.2) lib/puma/server.rb:269:in `block in run'
+  puma (2.12.2) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.12.2) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (49.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 11:45:45 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 966ms (Views: 963.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 11:45:46 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 11:45:46 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 11:45:46 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 11:45:46 +0300
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 11:45:46 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 11:50:09 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 11:50:09 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 11:50:09 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 11:50:09 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 11:50:09 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 11:50:09 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 11:56:09 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 11:56:09 +0300
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 11:56:09 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 11:56:09 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 11:56:09 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 11:56:09 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 11:56:50 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 11:56:51 +0300
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 11:56:51 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 11:56:51 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 11:56:51 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 11:56:51 +0300
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-07-23 11:57:17 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c5jHgbWTbUKZshGz6r8h3QxI38cTeVUeVlY9ukznzm46uW3TgKeEc/fr+qMwm4AkaOXSc7A+/vlMT/mpalx57A==", "session"=>{"username"=>"s"}, "commit"=>"Start chatting"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 11:57:17 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 11:57:22 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"s"}, "commit"=>"Send message"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 11:57:38 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"s"}, "commit"=>"Send message"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 11:57:38 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"s"}, "commit"=>"Send message"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 11:57:38 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"s"}, "commit"=>"Send message"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-07-23 11:57:46 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c5jHgbWTbUKZshGz6r8h3QxI38cTeVUeVlY9ukznzm46uW3TgKeEc/fr+qMwm4AkaOXSc7A+/vlMT/mpalx57A==", "session"=>{"username"=>"sgdxgfcy"}, "commit"=>"Start chatting"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 11:57:46 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:43:01 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 12:43:02 +0300
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 12:43:02 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 12:43:02 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 12:43:02 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 12:43:02 +0300
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:43:03 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ss"}, "commit"=>"Send message"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:43:04 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ss"}, "commit"=>"Send message"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:43:04 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ss"}, "commit"=>"Send message"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:46:28 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 12:46:28 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 12:46:28 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 12:46:28 +0300
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 12:46:28 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 12:46:28 +0300
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:46:30 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"s"}, "commit"=>"Send message"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:46:31 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sdd"}, "commit"=>"Send message"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:46:32 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sdd"}, "commit"=>"Send message"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:46:32 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sdd"}, "commit"=>"Send message"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-07-23 12:46:37 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c5jHgbWTbUKZshGz6r8h3QxI38cTeVUeVlY9ukznzm46uW3TgKeEc/fr+qMwm4AkaOXSc7A+/vlMT/mpalx57A==", "session"=>{"username"=>"asdsad"}, "commit"=>"Start chatting"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:46:37 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:46:39 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"asdad"}, "commit"=>"Send message"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:49:38 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 12:49:38 +0300
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 12:49:38 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 12:49:38 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 12:49:38 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 12:49:38 +0300
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:49:38 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>""}, "commit"=>"Send message"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:49:40 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"q"}, "commit"=>"Send message"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:49:42 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"q"}, "commit"=>"Send message"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:49:43 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"qww"}, "commit"=>"Send message"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:50:35 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:35 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 12:50:35 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:35 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:35 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 12:50:35 +0300
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:50:36 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ds"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (50.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (40.7ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:50:37 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ds"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:50:37 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"ds"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (15.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.8ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:55:09 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1219ms (Views: 1217.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/cable.self-02151c4bc9d0bc5fa36bcee3d056636ee19f6e350a4f903477472f7ce95cbfcc.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/cable/connection.self-f3dc8bb84585a8cce35a6af50ee4b18a11a86ae9773b1630e0dc973df2500a79.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/cable/connection_monitor.self-0b501a8f395955062bec67cbd4beefe6dc8c42a0b2e4b0250b24eb0d95b0124e.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/cable/subscriptions.self-6ba706793406ee2c2a65c2405aff991ade0713a0be11e2c87b2b1ec3902d4b0a.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/cable/subscription.self-92f981e131de63b8e79495e68da94b035e24b5e33bec0c6f86f808cd8eb72806.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/cable/consumer.self-1805ed78559b1ea88141fdc954fdda1d08b98b6a1de15cd9a3209fdb568ea3cd.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/channels/index.self-97183e635f62724a3cc167508d7a9faef2ff1f0d35b7b43ecdf783e68c8f4cef.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/channels/messages.self-99221b45f9c996044687d3f1782c00c094141445edc6f9344a34f830254e3d21.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:55:10 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:55:12 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sdsds"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (23.7ms)
+Finished "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:55:13 +0300
+MessagesChannel stopped streaming from messages
+MessagesChannel unsubscribed
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-07-23 12:55:15 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c5jHgbWTbUKZshGz6r8h3QxI38cTeVUeVlY9ukznzm46uW3TgKeEc/fr+qMwm4AkaOXSc7A+/vlMT/mpalx57A==", "session"=>{"username"=>"asdsad"}, "commit"=>"Start chatting"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:55:15 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:55:15 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:55:16 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"d"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.4ms)
+Finished "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:55:17 +0300
+MessagesChannel stopped streaming from messages
+MessagesChannel unsubscribed
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 12:56:42 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:56:43 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-07-23 12:56:46 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g92oWRw3auc0LYhIwMP6pBWv7t5koLYJVqF/7LBWTtLK/AILKQOD1lp0Y1ga51tdcQLjasfnHe5MuLv/lu35UA==", "session"=>{"username"=>"2222"}, "commit"=>"Start chatting"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:56:46 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+Finished "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:56:47 +0300
+MessagesChannel stopped streaming from messages
+MessagesChannel unsubscribed
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:56:47 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:56:48 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sss"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:56:49 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sss"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.3ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:56:49 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sss"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.3ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:56:52 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sss"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.5ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:56:53 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sss"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (15.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.3ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:56:53 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sss"}, "commit"=>"Send message"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActionCable::Server::Configuration::ApplicationCable):
+  app/controllers/messages_controller.rb:3:in `create'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (15.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.7ms)
+Finished "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:56:54 +0300
+MessagesChannel stopped streaming from messages
+MessagesChannel unsubscribed
+Terminating 101 actors...
+Terminating task: type=:finalizer, meta={:method_name=>:__shutdown__}, status=:receiving
+	Celluloid::TaskFiber backtrace unavailable. Please try `Celluloid.task_class = Celluloid::TaskThread` if you need backtraces here.
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-23 12:58:51 +0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 186ms (Views: 177.0ms | ActiveRecord: 0.0ms)
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:58:51 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-07-23 12:58:53 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ueVw6pSWnV1qokgJawgcG6ZbzUQj0Zu9FgJyPSYiLDXwxNq4oaJ0bAT7oxmxLL3iwvbA8ICWMFoMG7YuAJmbtw==", "session"=>{"username"=>"sss"}, "commit"=>"Start chatting"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:58:53 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+Finished "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:58:53 +0300
+MessagesChannel stopped streaming from messages
+MessagesChannel unsubscribed
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:58:54 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:58:55 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"sdsd"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"sdsd", :username=>"sss"}
+MessagesChannel transmitting {"message"=>"sdsd", "username"=>"sss"} (via streamed from messages)
+Completed 200 OK in 20ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:58:57 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"dsdsdssdsd"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"dsdsdssdsd", :username=>"sss"}
+MessagesChannel transmitting {"message"=>"dsdsdssdsd", "username"=>"sss"} (via streamed from messages)
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:58:59 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"dsdsdssdsddsdsd"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"dsdsdssdsddsdsd", :username=>"sss"}
+MessagesChannel transmitting {"message"=>"dsdsdssdsddsdsd", "username"=>"sss"} (via streamed from messages)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:59:01 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"dsdsdssdsddsdsdadsad"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"dsdsdssdsddsdsdadsad", :username=>"sss"}
+MessagesChannel transmitting {"message"=>"dsdsdssdsddsdsdadsad", "username"=>"sss"} (via streamed from messages)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:59:08 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"dsdsdssdsddsdsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"dsdsdssdsddsdsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad", :username=>"sss"}
+MessagesChannel transmitting {"message"=>"dsdsdssdsddsdsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad", "username"=>"sss"} (via streamed from messages)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:59:13 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"dsdsdssdsddsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"dsdsdssdsddsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad", :username=>"sss"}
+MessagesChannel transmitting {"message"=>"dsdsdssdsddsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad", "username"=>"sss"} (via streamed from messages)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:59:16 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"dsdsdssdsddaaaaaaaaaaaaaaaaaaaaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"dsdsdssdsddaaaaaaaaaaaaaaaaaaaaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad", :username=>"sss"}
+MessagesChannel transmitting {"message"=>"dsdsdssdsddaaaaaaaaaaaaaaaaaaaaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadsdadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaad", "username"=>"sss"} (via streamed from messages)
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms)
+Finished "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:59:23 +0300
+MessagesChannel stopped streaming from messages
+MessagesChannel unsubscribed
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:59:23 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-07-23 12:59:31 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ueVw6pSWnV1qokgJawgcG6ZbzUQj0Zu9FgJyPSYiLDXwxNq4oaJ0bAT7oxmxLL3iwvbA8ICWMFoMG7YuAJmbtw==", "session"=>{"username"=>"qwerrty"}, "commit"=>"Start chatting"}
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 12:59:31 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+Finished "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:59:31 +0300
+MessagesChannel stopped streaming from messages
+MessagesChannel unsubscribed
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 12:59:31 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:59:35 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"hi"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"hi", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"hi", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:59:40 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"himeen"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"himeen", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"himeen", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:59:47 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"where areyou"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"where areyou", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"where areyou", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 12:59:54 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"olollolo"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"olollolo", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"olollolo", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 13:00:31 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"olollolo"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"olollolo", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"olollolo", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 13:00:34 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"szzcxzvvcxvcvolollolo"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"szzcxzvvcxvcvolollolo", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"szzcxzvvcxvcvolollolo", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 13:00:36 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"szzcxzvvcxvcvolollolo"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"szzcxzvvcxvcvolollolo", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"szzcxzvvcxvcvolollolo", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 13:00:37 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"szzcxzvvcxvcvolollolo"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"szzcxzvvcxvcvolollolo", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"szzcxzvvcxvcvolollolo", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 13:03:56 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"szzcxzvvcxvcvolollolo"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"szzcxzvvcxvcvolollolo", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"szzcxzvvcxvcvolollolo", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+Processing by MessagesController#index as HTML
+  Rendered messages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+Finished "/" [Websocket] for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+MessagesChannel stopped streaming from messages
+MessagesChannel unsubscribed
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/cable/connection.self-f3dc8bb84585a8cce35a6af50ee4b18a11a86ae9773b1630e0dc973df2500a79.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/cable.self-02151c4bc9d0bc5fa36bcee3d056636ee19f6e350a4f903477472f7ce95cbfcc.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/cable/subscriptions.self-6ba706793406ee2c2a65c2405aff991ade0713a0be11e2c87b2b1ec3902d4b0a.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/cable/connection_monitor.self-0b501a8f395955062bec67cbd4beefe6dc8c42a0b2e4b0250b24eb0d95b0124e.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/cable/subscription.self-92f981e131de63b8e79495e68da94b035e24b5e33bec0c6f86f808cd8eb72806.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/cable/consumer.self-1805ed78559b1ea88141fdc954fdda1d08b98b6a1de15cd9a3209fdb568ea3cd.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/channels/index.self-97183e635f62724a3cc167508d7a9faef2ff1f0d35b7b43ecdf783e68c8f4cef.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/channels/messages.self-99221b45f9c996044687d3f1782c00c094141445edc6f9344a34f830254e3d21.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+Started GET "/" [Websocket] for 127.0.0.1 at 2015-07-23 13:09:14 +0300
+MessagesChannel subscribing
+MessagesChannel is streaming from messages
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 13:09:16 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"qwee"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"qwee", :username=>"qwerrty"}
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2015-07-23 13:09:18 +0300
+Processing by MessagesController#create as JS
+  Parameters: {"utf8"=>"✓", "message"=>{"body"=>"qwee"}, "commit"=>"Send message"}
+[ActionCable] Broadcasting to messages: {:message=>"qwee", :username=>"qwerrty"}
+MessagesChannel transmitting {"message"=>"qwee", "username"=>"qwerrty"} (via streamed from messages)
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms)
